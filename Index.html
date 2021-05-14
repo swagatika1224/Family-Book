@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<title>Family Book</title>
+<body>
+<h1>Family Book</h1>
+<hr> <hr>
+<img id="family_img" src="https://cdn1.vectorstock.com/i/1000x1000/25/40/happy-family-cartoon-vector-23512540.jpg">
+<h3 id="one">1. Our Family Book</h3>
+<button type="button" onclick="family()">Next</button>
+<hr>
+
+<script>
+var images=[
+"https://mail.google.com/mail/u/0?ui=2&ik=6ececbb1ce&attid=0.1&permmsgid=msg-f:1699697794975597572&th=17968a239f090404&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_N9XTBHCf_xOUdU2CUz50-0LPnnwVR1sfQRpJmQ96bJ3IbMKsDprABpJnUF-cjtk6J6Ww8C6hZKLysq926V3N7rNI2Cng30VVRw53v9xetY3EslLqxHIV1zdY&disp=emb&realattid=1f0c031c223046ea_0.1.1"
+];
+function family() {
+document.getElementById("one").innerHTML=names[i];
+document.getElementById("family_img").src=images[i];
+i++;
+if(i==4) {
+i=0;
+}}
+</script>
+</body>
+</html>

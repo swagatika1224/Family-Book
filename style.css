@@ -1,0 +1,23 @@
+body {
+text-align:center;
+background-image:linear-gradient(pink, lavender, yellow);
+}
+
+button {
+font-size:25px;
+background-color:bisque;
+border-radius:20% m;
+color:black;
+}
+
+h1 {
+font-size:30px;
+color:blue;
+text-decoration:underline;
+}
+h3 {
+font-size:30px;
+color:purple;
+font-weight:bold;
+text-decoration:underline;
+}
